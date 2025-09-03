@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Portfolio</h1>
+            <h3>Learning HTML step-by-step</h3>
+    </header>
+    <nav><ul>
+        <li><a href="About Me">About Me</a></li>
+        <li></li><a href="Web Development Basics">Web Development Basics</a></li>
+        <li></li><a href="Sample Code">Sample Code</a></li>
+        <li></li><a href="Weekly Schedule">Weekly Schedule</a></li>
+        <li></li><a href="Lab Details">Lab Details</a></li>
+
+    </ul>
+    <h2>Contact Me</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <br><input type="text" id="name" name>
+        
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br><input type="text" id="email" email>
+
+        <br><br>
+
+        <label for="color">Favorite Color:</label>
+        <br><input type="color" id="color" color>
+
+        <br><br>
+
+        <label for="birthday">Birthday:</label>
+        <br><input type="date" id="birthday" birthday>
+
+        <br><br>
+
+        <label for="Student Type">What type of student are you?:</label>
+
+        <br><input type="radio" id="part-time" name="Student Type">
+        <label for="part-time">Part-time</label>
+        <br><input type="radio" id="full-time" name="Student Type">
+        <label for="full-time">Full-time</label>
+
+        <br><br>
+
+        <label for="Course">Course:</label>
+        <br><select  name="Course" id="Course">
+            <option value="it301">IT301</option>
+            <option value="it302">IT302</option>
+            <option value="it333">IT333</option>
+        </select>
+
+        <br><br>
+
+        <label for="feedback">Please provide feedback here:</label>
+        <br><textarea id="feedback" name="feedback" rows="5" cols="20"></textarea>
+
+        <br><br>
+
+        <button type="submit" value="submit">Submit</button>
+
+    </form>
+    </nav>
+    <main>
+        
+        <br><section id="About Me"> <h2>About Me</h2>
+            <figure>
+                <img src="https://img.freepik.com/premium-vector/print_1150217-428.jpg" alt="girl" width="150" height="200" 
+                <br><figcaption>This is a figure element with an image and a caption</figcaption>
+            </figure>
+        <p>I love web development!<br>It allows me to build cool things with just code.<br>HTML uses tags like <code>&lt;div&gt;</code> and <code>&lt;section&gt;</code> to organize content.</p>
+        </section>
+
+        <br><section id="Web Development Basics">
+            <h2 id="Web Development Basics">Web Development Basics</h2><p>HTML stands for Hyper Text Markup Language. It structures content using tags like <code>&lt;h1&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;img&gt;</code>.
+            </p></section>
+        
+        <section id="Sample Code"><h2 id="Sample Code">Sample Code</h2>
+            <pre>Function hello() {
+  console.log("Hello, world!");
+}</pre>
+            <blockquote>"Web development is like magic — except it's real and you can learn it."</blockquote>
+        </section>
+        <section id="Weekly Schedule"> 
+            <table>
+                <br><h2 id="Weekly Schedule">Weekly Schedule</h2>
+                <tr><th>Day</th><th>Activity</th><th>Time</th></tr>
+                <tr><td>Monday</td><td>Lecture</td><td>10:00 AM</td></tr>
+                <tr><td>Wednesday</td><td>lab</td><td>2:00 PM</td></tr>
+                <tr><td>Friday</td><td>Project Work</td><td>1:00 PM</td></tr>
+                <tr><td colspan="3"><code>&#169;</code>2025 Ridley Sisson - All rights reserved</td></tr>
+            </table>
+        </section>
+        <section id="Lab Details"><h2 id="Lab Details">Lab Details</h2>
+            <p>Lab sessions take place every Wednesday in EnGeo2203 at 2:00 PM. Attendance is required.</p>
+            <p>Made with <code>&#9829;</code> and HTML.<br>
+            <code>&#169;</code> 2025 Ridley Sisson. All rights reserved.<br>
+            Last updated: September 1, 2025</p>
+        </section>
+    </main>
+</body>
+</html>
